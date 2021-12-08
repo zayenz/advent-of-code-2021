@@ -1,0 +1,27 @@
+ndisplays = 10;
+
+patterns = [|
+   { b, e },  { c, f, b, e, g, a, d },  { c, b, d, g, e, f },  { f, g, a, e, c, d },  { c, g, e, b },  { f, d, c, g, e },  { a, g, e, b, f, d },  { f, e, c, d, b },  { f, a, b, c, d },  { e, d, b }, 
+ | { e, d, b, f, g, a },  { b, e, g, c, d },  { c, b, g },  { g, c },  { g, c, a, d, e, b, f },  { f, b, g, d, e },  { a, c, b, g, f, d },  { a, b, c, d, e },  { g, f, c, b, e, d },  { g, f, e, c }, 
+ | { f, g, a, e, b, d },  { c, g },  { b, d, a, e, c },  { g, d, a, f, b },  { a, g, b, c, f, d },  { g, d, c, b, e, f },  { b, g, c, a, d },  { g, f, a, c },  { g, c, b },  { c, d, g, a, b, e, f }, 
+ | { f, b, e, g, c, d },  { c, b, d },  { a, d, c, e, f, b },  { d, a, g, e, b },  { a, f, c, b },  { b, c },  { a, e, f, d, c },  { e, c, d, a, b },  { f, g, d, e, c, a },  { f, c, d, b, e, g, a }, 
+ | { a, e, c, b, f, d, g },  { f, b, g },  { g, f },  { b, a, f, e, g },  { d, b, e, f, a },  { f, c, g, e },  { g, c, b, e, a },  { f, c, a, e, g, b },  { d, g, c, e, a, b },  { f, c, b, d, g, a }, 
+ | { f, g, e, a, b },  { c, a },  { a, f, c, e, b, g },  { b, d, a, c, f, e, g },  { c, f, a, e, d, g },  { g, c, f, d, b },  { b, a, e, c },  { b, f, a, d, e, g },  { b, a, f, g, c },  { a, c, f }, 
+ | { d, b, c, f, g },  { f, g, d },  { b, d, e, g, c, a, f },  { f, g, e, c },  { a, e, g, b, d, f },  { e, c, d, f, a, b },  { f, b, e, d, c },  { d, a, c, g, b },  { g, d, c, e, b, f },  { g, f }, 
+ | { b, d, f, e, g, c },  { c, b, e, g, a, f },  { g, e, c, b, f },  { d, f, c, a, g, e },  { b, d, a, c, g },  { e, d },  { b, e, d, f },  { c, e, d },  { a, d, c, b, e, f, g },  { g, e, b, c, d }, 
+ | { e, g, a, d, f, b },  { c, d, b, f, e, g },  { c, e, g, d },  { f, e, c, a, b },  { c, g, b },  { g, b, d, e, f, c, a },  { c, g },  { f, g, c, d, a, b },  { e, g, f, d, b },  { b, f, c, e, g }, 
+ | { g, c, a, f, b },  { g, c, f },  { d, c, a, e, b, f, g },  { e, c, a, g, b },  { g, f },  { a, b, c, d, e, g },  { g, a, e, f },  { c, a, f, b, g, e },  { f, d, b, a, c },  { f, e, g, b, d, c }, 
+|];
+
+outputs = [|
+   { f, d, g, a, c, b, e },  { c, e, f, d, b },  { c, e, f, b, g, d },  { g, c, b, e }, 
+ | { f, c, g, e, d, b },  { c, g, b },  { d, g, e, b, a, c, f },  { g, c }, 
+ | { c, g },  { c, g },  { f, d, c, a, g, b },  { c, b, g }, 
+ | { e, f, a, b, c, d },  { c, e, d, b, a },  { g, a, d, f, e, c },  { c, b }, 
+ | { g, e, c, f },  { e, g, d, c, a, b, f },  { b, g, f },  { b, f, g, e, a }, 
+ | { g, e, b, d, c, f, a },  { e, c, b, a },  { c, a },  { f, a, d, e, g, c, b }, 
+ | { c, e, f, g },  { d, c, b, e, f },  { f, c, g, e },  { g, b, c, a, d, f, e }, 
+ | { e, d },  { b, c, g, a, f, e },  { c, d, g, b, a },  { c, b, g, e, f }, 
+ | { g, b, d, f, c, a, e },  { b, g, c },  { c, g },  { c, g, b }, 
+ | { f, g, a, e },  { c, f, g, a, b },  { f, g },  { b, a, g, c, e }, 
+|];
