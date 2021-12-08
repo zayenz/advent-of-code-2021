@@ -2,9 +2,15 @@
     "openFiles": [
         "day2/day2-1.mzn",
         "day2/day2-test.dzn",
-        "day2/day2-input.dzn"
+        "day2/day2-input.dzn",
+        "day3/day3-1.mzn",
+        "day3/day3-test.dzn",
+        "day7/day7-test.dzn",
+        "day8/day8-test.dzn",
+        "day3/day3-input.dzn",
+        "day3/day3-2.mzn"
     ],
-    "openTab": 0,
+    "openTab": 8,
     "projectFiles": [
         "day1/day1-1.mzn",
         "day1/day1-2.mzn",
@@ -13,6 +19,10 @@
         "day2/day2-1.mzn",
         "day2/day2-input.dzn",
         "day2/day2-test.dzn",
+        "day3/day3-1.mzn",
+        "day3/day3-2.mzn",
+        "day3/day3-input.dzn",
+        "day3/day3-test.dzn",
         "day7/day7-1.mzn",
         "day7/day7-2.mzn",
         "day7/day7-input.dzn",
