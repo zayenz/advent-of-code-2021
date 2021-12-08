@@ -12,6 +12,8 @@ array[X] of int: x;
 % Data
 set of int: X = 1..nx;
 
+int: checksum = 0;
+
 % Variables
 
 % Constraints
@@ -20,7 +22,8 @@ set of int: X = 1..nx;
 solve satisfy;
 
 output [
-  "x: ", show(x), "\n",
+  "x:        ", show(x), "\n",
+  "checksum: ", show(checksum), "\n",
 ];
 EOF
 
