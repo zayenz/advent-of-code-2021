@@ -3,11 +3,14 @@
 mkdir $1
 
 cat << EOF > $1/$1-1.mzn
+include "globals.mzn";
+
 % Input
-array[int] of int: x;
+int: nx;
+array[X] of int: x;
 
 % Data
-set of int: X = index_set(x);
+set of int: X = 1..nx;
 
 % Variables
 
@@ -22,9 +25,11 @@ output [
 EOF
 
 cat << EOF > $1/$1-input.dzn
+nx = 0;
 x = [];
 EOF
 
 cat << EOF > $1/$1-test.dzn
+nx = 0;
 x = [];
 EOF
