@@ -1,16 +1,15 @@
 {
     "openFiles": [
-        "day2/day2-1.mzn",
-        "day2/day2-test.dzn",
-        "day2/day2-input.dzn",
-        "day3/day3-1.mzn",
-        "day3/day3-test.dzn",
-        "day7/day7-test.dzn",
-        "day8/day8-test.dzn",
-        "day3/day3-input.dzn",
-        "day3/day3-2.mzn"
+        "day4/day4-1.mzn",
+        "day4/day4-input.dzn",
+        "day4/day4-test.dzn",
+        "day4/day4-2.mzn",
+        "day5/day5-1.mzn",
+        "day5/day5-test.dzn",
+        "day5/day5-input.dzn",
+        "day5/day5-2.mzn"
     ],
-    "openTab": 8,
+    "openTab": 7,
     "projectFiles": [
         "day1/day1-1.mzn",
         "day1/day1-2.mzn",
@@ -23,6 +22,14 @@
         "day3/day3-2.mzn",
         "day3/day3-input.dzn",
         "day3/day3-test.dzn",
+        "day4/day4-1.mzn",
+        "day4/day4-2.mzn",
+        "day4/day4-input.dzn",
+        "day4/day4-test.dzn",
+        "day5/day5-1.mzn",
+        "day5/day5-2.mzn",
+        "day5/day5-input.dzn",
+        "day5/day5-test.dzn",
         "day7/day7-1.mzn",
         "day7/day7-2.mzn",
         "day7/day7-input.dzn",
@@ -31,9 +38,9 @@
         "day8/day8-2.mzn",
         "day8/day8-example.dzn",
         "day8/day8-input.dzn",
-        "day8/day8-test.dzn"
+        "day8/day8-test.dzn",
+        "gecode-all-solutions-statistics.mpc"
     ],
-    "selectedBuiltinConfigId": "org.gecode.gecode",
-    "selectedBuiltinConfigVersion": "6.3.0",
+    "selectedSolverConfigFile": "gecode-all-solutions-statistics.mpc",
     "version": 106
 }
