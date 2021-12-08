@@ -1,0 +1,9 @@
+ndisplays = 1;
+
+patterns = [|
+{ a, c, e, d, g, f, b }, { c, d, f, b, e }, { g, c, d, f, a }, { f, b, c, a, d }, { d, a, b }, { c, e, f, a, b, d }, { c, d, f, g, e, b }, { e, a, f, b }, { c, a, g, e, d, b }, { a, b }
+|];
+
+outputs = [|
+{ c, d, f, e, b }, { f, c, a, d, b }, { c, d, f, e, b }, { c, d, b, a, f }
+|];
