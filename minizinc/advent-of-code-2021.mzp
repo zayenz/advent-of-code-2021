@@ -1,20 +1,27 @@
 {
     "openFiles": [
-        "day1/day1-1.mzn",
-        "day1/day1-2.mzn",
-        "day7/day7-1.mzn",
-        "day7/day7-2.mzn"
+        "day2/day2-1.mzn",
+        "day2/day2-test.dzn",
+        "day2/day2-input.dzn"
     ],
     "openTab": 0,
     "projectFiles": [
         "day1/day1-1.mzn",
         "day1/day1-2.mzn",
-        "day1/test.dzn",
-        "day1/input.dzn",
+        "day1/day1-input.dzn",
+        "day1/day1-test.dzn",
+        "day2/day2-1.mzn",
+        "day2/day2-input.dzn",
+        "day2/day2-test.dzn",
         "day7/day7-1.mzn",
         "day7/day7-2.mzn",
-        "day7/test.dzn",
-        "day7/input.dzn"
+        "day7/day7-input.dzn",
+        "day7/day7-test.dzn",
+        "day8/day8-1.mzn",
+        "day8/day8-2.mzn",
+        "day8/day8-example.dzn",
+        "day8/day8-input.dzn",
+        "day8/day8-test.dzn"
     ],
     "selectedBuiltinConfigId": "org.gecode.gecode",
     "selectedBuiltinConfigVersion": "6.3.0",

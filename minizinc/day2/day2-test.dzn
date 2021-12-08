@@ -1,0 +1,5 @@
+steps = 6;
+
+direction = [ forward, down, forward, up, down, forward ];
+
+amount = [ 5, 5, 8, 3, 8, 2 ];
