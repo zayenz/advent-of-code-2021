@@ -54,6 +54,12 @@ constraint forall (display in Displays) (
    all_different(pattern_digit[display, ..]) :: domain
 );
 
+array[Displays, Segments] of var Segments: mapping_inverse;
+constraint forall(display in Displays) (
+    inverse(mapping[display, ..], mapping_inverse[display, ..])
+);
+
+
 % Given an input segment on a display, map it to 
 % the real set of segments to light up using the mapping function
 function var set of Segments: map(Displays: display, set of Segments: input) = 
