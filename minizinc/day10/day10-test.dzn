@@ -1,0 +1,14 @@
+nlines = 10;
+length = 34;
+lines = [|
+   LBracket, LParen, LBrace, LParen, LAngle, LParen, LParen, RParen, RParen, LBracket, RBracket, RAngle, LBracket, LBracket, LBrace, LBracket, RBracket, LBrace, LAngle, LParen, RParen, LAngle, RAngle, RAngle, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LBracket, LParen, LParen, RParen, LBracket, LAngle, RAngle, RBracket, RParen, RBracket, LParen, LBrace, LBracket, LAngle, LBrace, LAngle, LAngle, LBracket, RBracket, RAngle, RAngle, LParen, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LBrace, LParen, LBracket, LParen, LAngle, LBrace, RBrace, LBracket, LAngle, RAngle, LBracket, RBracket, RBrace, RAngle, LBrace, LBracket, RBracket, LBrace, LBracket, LParen, LAngle, LParen, RParen, RAngle, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LParen, LParen, LParen, LParen, LBrace, LAngle, RAngle, RBrace, LAngle, LBrace, LAngle, LBrace, LAngle, RAngle, RBrace, LBrace, LBracket, RBracket, LBrace, LBracket, RBracket, LBrace, RBrace, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LBracket, LBracket, LAngle, LBracket, LParen, LBracket, RBracket, RParen, RParen, LAngle, LParen, LBracket, LBracket, LBrace, RBrace, LBracket, LBracket, LParen, RParen, RBracket, RBracket, RBracket, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LBracket, LBrace, LBracket, LBrace, LParen, LBrace, RBrace, RBracket, LBrace, RBrace, RBrace, LParen, LBracket, LBrace, LBracket, LBrace, LBrace, LBrace, RBrace, RBrace, LParen, LBracket, RBracket, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LBrace, LAngle, LBracket, LBracket, RBracket, RBracket, RAngle, RBrace, LAngle, LBrace, LBracket, LBrace, LBracket, LBrace, LBracket, RBracket, LBrace, LParen, RParen, LBracket, LBracket, LBracket, RBracket, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LBracket, LAngle, LParen, LAngle, LParen, LAngle, LParen, LAngle, LBrace, RBrace, RParen, RParen, RAngle, LAngle, LParen, LBracket, RBracket, LParen, LBracket, RBracket, LParen, RParen, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LAngle, LBrace, LParen, LBracket, LParen, LBracket, LBracket, LParen, LAngle, RAngle, LParen, RParen, RParen, LBrace, RBrace, RBracket, RAngle, LParen, LAngle, LAngle, LBrace, LBrace, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+ | LAngle, LBrace, LParen, LBracket, LBrace, LBrace, RBrace, RBrace, LBracket, LAngle, LBracket, LBracket, LBracket, LAngle, RAngle, LBrace, RBrace, RBracket, RBracket, RBracket, RAngle, LBracket, RBracket, RBracket, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, Empty, 
+|];
