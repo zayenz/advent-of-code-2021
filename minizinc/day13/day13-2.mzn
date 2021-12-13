@@ -17,19 +17,19 @@ enum Coordinates = {x, y};
 set of int: Points = 1..npoints;
 set of int: Instructions = 1..ninstructions;
 
-function array[Points, Coordinates] of int: folding(array[Points, Coordinates] of int: input, Instructions: ins) =
+function array[Points, 1..2] of int: folding(array[Points, 1..2] of int: input, Instructions: ins) =
     let {
-        array[Points, Coordinates] of int: folded = array2d(Points, Coordinates, [
+        array[Points, 1..2] of int: folded = array2d(Points, 1..2, [
             [
               if direction[ins] = x then
-                  min(points_x[p], position[ins]) - max(0, points_x[p] - position[ins])
+                  min(input[p, x], position[ins]) - max(0, input[p, x] - position[ins])
               else
-                  points_x[p]      
+                  input[p, x]
               endif,
               if direction[ins] = y then
-                  min(points_y[p], position[ins]) - max(0, points_y[p] - position[ins])
+                  min(input[p, y], position[ins]) - max(0, input[p, y] - position[ins])
              else
-                 points_y[p]      
+                 input[p, y]
               endif,
             ][c]
           | p in Points, c in Coordinates
@@ -41,7 +41,7 @@ function array[Points, Coordinates] of int: folding(array[Points, Coordinates] o
         folded
     endif;
 
-array[Points, Coordinates] of int: folded = folding(points, 1);
+array[Points, 1..2] of int: folded = folding(points, 1);
 
 enum Display = {o, X};
 set of int: Xs = 0..max(folded[.., x]);
