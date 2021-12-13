@@ -1,0 +1,15 @@
+Rooms = {A, b, c, d};
+
+single_visit_rooms = {b, c, d};
+
+nedges = 7;
+
+edges = [|
+   start, A
+ | start, b
+ | A, c
+ | A, b
+ | b, d
+ | A, end
+ | b, end
+|];

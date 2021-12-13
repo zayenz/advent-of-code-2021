@@ -1,0 +1,26 @@
+Rooms = {A, b, c, d};
+
+single_visit_rooms = {b, c, d};
+
+nedges = 7;
+
+edges = [|
+   fs, end
+ | he, DX
+ | fs, he
+ | start, DX
+ | pj, DX
+ | end, zg
+ | zg, sl
+ | zg, pj
+ | pj, he
+ | RW, he
+ | fs, DX
+ | pj, RW
+ | zg, RW
+ | start, pj
+ | he, WI
+ | zg, he
+ | pj, fs
+ | start, RW
+|];
