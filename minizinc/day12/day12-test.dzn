@@ -1,6 +1,9 @@
-Rooms = {A, b, c, d};
+Rooms = {start, end, A, b, c, d};
 
-single_visit_rooms = {b, c, d};
+start_room = start;
+end_room = end;
+
+single_visit= {b, c, d};
 
 nedges = 7;
 
