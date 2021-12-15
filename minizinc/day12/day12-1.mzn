@@ -20,7 +20,13 @@ array[Rooms] of set of Rooms: graph = [
   | room in Rooms
 ];
 
-int: checksum = 0;
+function int: traverse(array[$$N] of set of Rooms: visited, array[$$N] of int: counts, array[$$N] of Rooms: room) =
+    let {
+        set of int: N = index_set(visited)
+    } in
+    0;
+
+int: checksum = traverse([{start_room}], [1], [start_room]);
 
 % Variables
 
