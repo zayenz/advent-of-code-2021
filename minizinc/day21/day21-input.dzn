@@ -1,0 +1,9 @@
+initial_state = [
+  P1Position: 10,
+  P2Position: 2,
+  P1Score: 0,
+  P2Score: 0,
+  Roll: 1,
+  RollsCount: 0,
+  Player: 1,
+];
