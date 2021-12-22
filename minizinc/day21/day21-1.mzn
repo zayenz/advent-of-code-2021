@@ -1,7 +1,8 @@
 include "globals.mzn";
 
 % Input
-array[State] of int: initial_state;
+int: player1_initial_position;
+int: player2_initial_position;
 
 % Data
 enum RollData = { RollValue, TimesRolled, NextRoll };
@@ -15,6 +16,17 @@ enum State = {
   RollsCount,
   Player,
 };
+
+array[State] of int: initial_state = [
+  P1Position: player1_initial_position,
+  P2Position: player2_initial_position,
+  P1Score: 0,
+  P2Score: 0,
+  Roll: 1,
+  RollsCount: 0,
+  Player: 1,
+];
+
 
 function int: next_player(int: player) = if player = 1 then 2 else 1 endif;
 function State: pos(int: player) = if player = 1 then P1Position else P2Position endif;
