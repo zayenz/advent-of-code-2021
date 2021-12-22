@@ -84,7 +84,7 @@ solve
   :: int_search([xv[1], abs(yv[1]), yv[1]], input_order, indomain_min)
   satisfy;
 
-bool: plot = false;
+bool: plot = true;
 
 var int: zero = 0;
 output [
