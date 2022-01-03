@@ -1,0 +1,13 @@
+ins = [
+inp,
+inp,
+imul,
+eql,
+];
+
+args = [|
+   R(z), None
+ | R(x), None
+ | R(z), Imm(3),
+ | R(z), R(x),
+|];

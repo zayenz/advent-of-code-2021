@@ -1,0 +1,27 @@
+ins = [
+inp,
+iadd,
+imod,
+idiv,
+iadd,
+imod,
+idiv,
+iadd,
+imod,
+idiv,
+imod,
+];
+
+args = [|
+   R(w), None
+ | R(z), R(w),
+ | R(z), Imm(2),
+ | R(w), Imm(2),
+ | R(y), R(w),
+ | R(y), Imm(2),
+ | R(w), Imm(2),
+ | R(x), R(w),
+ | R(x), Imm(2),
+ | R(w), Imm(2),
+ | R(w), Imm(2),
+|];

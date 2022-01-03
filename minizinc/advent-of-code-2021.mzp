@@ -1,11 +1,14 @@
 {
     "openFiles": [
-        "day14/day14-2.mzn",
         "day23/day23-1.mzn",
         "day23/day23-test.dzn",
-        "day23/day23-input.dzn"
+        "day23/day23-input.dzn",
+        "day24/day24-test.dzn",
+        "day24/day24-test-2.dzn",
+        "day24/day24-input.dzn",
+        "day24/day24-1.mzn"
     ],
-    "openTab": 1,
+    "openTab": 6,
     "projectFiles": [
         "day1/day1-1.mzn",
         "day1/day1-2.mzn",
@@ -51,6 +54,13 @@
         "day23/day23-1.mzn",
         "day23/day23-input.dzn",
         "day23/day23-test.dzn",
+        "day24/day24-1.mzn",
+        "day24/day24-input.dzn",
+        "day24/day24-test-2.dzn",
+        "day24/day24-test.dzn",
+        "day25/day25-1.mzn",
+        "day25/day25-input.dzn",
+        "day25/day25-test.dzn",
         "day3/day3-1.mzn",
         "day3/day3-2.mzn",
         "day3/day3-input.dzn",
@@ -72,9 +82,10 @@
         "day8/day8-example.dzn",
         "day8/day8-input.dzn",
         "day8/day8-test.dzn",
-        "gecode-all-solutions-statistics.mpc"
+        "gecode-all-solutions-statistics.mpc",
+        "../../../minizinc/tests/tog-day24.mzn"
     ],
-    "selectedBuiltinConfigId": "org.gecode.gecode",
-    "selectedBuiltinConfigVersion": "6.3.0",
+    "selectedBuiltinConfigId": "org.minizinc.findmus",
+    "selectedBuiltinConfigVersion": "0.6.0",
     "version": 106
 }
