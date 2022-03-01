@@ -1,0 +1,137 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=1495
+%%%mzn-stat: flatIntVars=2115
+%%%mzn-stat: flatBoolConstraints=300
+%%%mzn-stat: flatIntConstraints=3308
+%%%mzn-stat: evaluatedReifiedConstraints=598
+%%%mzn-stat: evaluatedHalfReifiedConstraints=598
+%%%mzn-stat: method="satisfy"
+%%%mzn-stat: flatTime=0.403464
+%%%mzn-stat-end
+Initial x velocity 6 and initial y velocity 0
+Initial x velocity 6 and initial y velocity 1
+Initial x velocity 6 and initial y velocity 2
+Initial x velocity 6 and initial y velocity 3
+Initial x velocity 6 and initial y velocity 4
+Initial x velocity 6 and initial y velocity 5
+Initial x velocity 6 and initial y velocity 6
+Initial x velocity 6 and initial y velocity 7
+Initial x velocity 6 and initial y velocity 8
+Initial x velocity 6 and initial y velocity 9
+Initial x velocity 7 and initial y velocity 0
+Initial x velocity 7 and initial y velocity -1
+Initial x velocity 7 and initial y velocity 1
+Initial x velocity 7 and initial y velocity 2
+Initial x velocity 7 and initial y velocity 3
+Initial x velocity 7 and initial y velocity 4
+Initial x velocity 7 and initial y velocity 5
+Initial x velocity 7 and initial y velocity 6
+Initial x velocity 7 and initial y velocity 7
+Initial x velocity 7 and initial y velocity 8
+Initial x velocity 7 and initial y velocity 9
+Initial x velocity 8 and initial y velocity 0
+Initial x velocity 8 and initial y velocity -1
+Initial x velocity 8 and initial y velocity 1
+Initial x velocity 8 and initial y velocity -2
+Initial x velocity 9 and initial y velocity 0
+Initial x velocity 9 and initial y velocity -1
+Initial x velocity 9 and initial y velocity -2
+Initial x velocity 10 and initial y velocity -1
+Initial x velocity 10 and initial y velocity -2
+Initial x velocity 11 and initial y velocity -1
+Initial x velocity 11 and initial y velocity -2
+Initial x velocity 11 and initial y velocity -3
+Initial x velocity 11 and initial y velocity -4
+Initial x velocity 12 and initial y velocity -2
+Initial x velocity 12 and initial y velocity -3
+Initial x velocity 12 and initial y velocity -4
+Initial x velocity 13 and initial y velocity -2
+Initial x velocity 13 and initial y velocity -3
+Initial x velocity 13 and initial y velocity -4
+Initial x velocity 14 and initial y velocity -2
+Initial x velocity 14 and initial y velocity -3
+Initial x velocity 14 and initial y velocity -4
+Initial x velocity 15 and initial y velocity -2
+Initial x velocity 15 and initial y velocity -3
+Initial x velocity 15 and initial y velocity -4
+Initial x velocity 20 and initial y velocity -5
+Initial x velocity 20 and initial y velocity -6
+Initial x velocity 20 and initial y velocity -7
+Initial x velocity 20 and initial y velocity -8
+Initial x velocity 20 and initial y velocity -9
+Initial x velocity 20 and initial y velocity -10
+Initial x velocity 21 and initial y velocity -5
+Initial x velocity 21 and initial y velocity -6
+Initial x velocity 21 and initial y velocity -7
+Initial x velocity 21 and initial y velocity -8
+Initial x velocity 21 and initial y velocity -9
+Initial x velocity 21 and initial y velocity -10
+Initial x velocity 22 and initial y velocity -5
+Initial x velocity 22 and initial y velocity -6
+Initial x velocity 22 and initial y velocity -7
+Initial x velocity 22 and initial y velocity -8
+Initial x velocity 22 and initial y velocity -9
+Initial x velocity 22 and initial y velocity -10
+Initial x velocity 23 and initial y velocity -5
+Initial x velocity 23 and initial y velocity -6
+Initial x velocity 23 and initial y velocity -7
+Initial x velocity 23 and initial y velocity -8
+Initial x velocity 23 and initial y velocity -9
+Initial x velocity 23 and initial y velocity -10
+Initial x velocity 24 and initial y velocity -5
+Initial x velocity 24 and initial y velocity -6
+Initial x velocity 24 and initial y velocity -7
+Initial x velocity 24 and initial y velocity -8
+Initial x velocity 24 and initial y velocity -9
+Initial x velocity 24 and initial y velocity -10
+Initial x velocity 25 and initial y velocity -5
+Initial x velocity 25 and initial y velocity -6
+Initial x velocity 25 and initial y velocity -7
+Initial x velocity 25 and initial y velocity -8
+Initial x velocity 25 and initial y velocity -9
+Initial x velocity 25 and initial y velocity -10
+Initial x velocity 26 and initial y velocity -5
+Initial x velocity 26 and initial y velocity -6
+Initial x velocity 26 and initial y velocity -7
+Initial x velocity 26 and initial y velocity -8
+Initial x velocity 26 and initial y velocity -9
+Initial x velocity 26 and initial y velocity -10
+Initial x velocity 27 and initial y velocity -5
+Initial x velocity 27 and initial y velocity -6
+Initial x velocity 27 and initial y velocity -7
+Initial x velocity 27 and initial y velocity -8
+Initial x velocity 27 and initial y velocity -9
+Initial x velocity 27 and initial y velocity -10
+Initial x velocity 28 and initial y velocity -5
+Initial x velocity 28 and initial y velocity -6
+Initial x velocity 28 and initial y velocity -7
+Initial x velocity 28 and initial y velocity -8
+Initial x velocity 28 and initial y velocity -9
+Initial x velocity 28 and initial y velocity -10
+Initial x velocity 29 and initial y velocity -5
+Initial x velocity 29 and initial y velocity -6
+Initial x velocity 29 and initial y velocity -7
+Initial x velocity 29 and initial y velocity -8
+Initial x velocity 29 and initial y velocity -9
+Initial x velocity 29 and initial y velocity -10
+Initial x velocity 30 and initial y velocity -5
+Initial x velocity 30 and initial y velocity -6
+Initial x velocity 30 and initial y velocity -7
+Initial x velocity 30 and initial y velocity -8
+Initial x velocity 30 and initial y velocity -9
+Initial x velocity 30 and initial y velocity -10
+==========
+%%%mzn-stat: initTime=0.039016
+%%%mzn-stat: solveTime=3.53779
+%%%mzn-stat: solutions=119
+%%%mzn-stat: variables=3612
+%%%mzn-stat: propagators=3606
+%%%mzn-stat: propagations=44219216
+%%%mzn-stat: nodes=96121
+%%%mzn-stat: failures=47942
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=9
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=112
+%%%mzn-stat-end

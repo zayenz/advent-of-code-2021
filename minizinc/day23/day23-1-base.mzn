@@ -6,8 +6,6 @@ array[Creature] of Room: initial_positions;
 array[AllSides] of Type: final_configuration = array1d(AllSides, [Amber, Amber, Bronze, Bronze, Copper, Copper, Desert, Desert]);
 
 % Data
-% Travel distance for one move
-set of int: Travel = 2..10;
 %set of int: Steps = 1..(card(Creature) * 2);
 set of int: Steps = 1..7;
 set of int: ExtendedSteps = min(Steps)-1..max(Steps);
@@ -239,46 +237,6 @@ array[int, 1..4] of int: move_content_table = make_matrix(1..4,
       | moved_creature in Creature, other in Creature where moved_creature != other, i in 1..4
     ]
 );
-
-array[int, 1..3] of int: travel_distance_table = make_matrix(1..3, [
-    [h, s, d,
-     s, h, d][i]
-  | h in Hallways, s in AllSides, d in { distance(h, s) }, i in 1..6
-]);
-array[Steps] of var Content: start_pos = [
-    
-  | step in Steps
-];
-array[Steps] of var Content: end_pos;
-
-array[Steps] of opt var Travel: travel_distance;
-constraint forall (step in Steps) (
-    let {
-        
-    } in
-    
-);
-
-array[int, 1..3] of int: all_move_combinations = make_matrix(1..3, [
-    [m, c, t][i]
-  | m in MoveType, c in Content, t in Travel, i in 1..3
-]);
-set of int: AllMoves = index_set1of2(all_move_combinations);
-array[int, 1..4] of int: all_move_table = array2d(AllMoves, 1..4, [
-    (all_move_combinations[a] ++ [a])[i]
-  | a in AllMoves, i in 1..4
-]);
-
-array[Steps, Room] of var MoveContent: room_move_content = array2d(Steps, Room, [
-    let {
-        var Content: prev = rooms[step-1, r],
-        var Content: curr = rooms[step,   r],
-        var MoveContent: res,
-        constraint table([moved_creature, prev, curr, res], move_content_table)
-    } in
-    res
-  | s in Steps, r in Room
-]);
 
 array[SomeMove, 1..38] of var MoveContent: move_content_vars = array2d(SomeMove, 1..38,
     get_values(HomeRight, 1) ++

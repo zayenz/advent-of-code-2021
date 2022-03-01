@@ -1,2 +1,10 @@
-nx = 0;
-x = [];
+initial_positions = [
+    A1: S12,
+    A2: S42,
+    B1: S11,
+    B2: S31,
+    C1: S21,
+    C2: S32,
+    D1: S22,
+    D2: S41,
+];
