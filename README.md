@@ -25,8 +25,8 @@ While MiniZinc is a modelling language foremost, it does have a pure
 functional part that can be used for general computations. Some
 notable limits on using MiniZinc for computation are
 * No higher order functions (so no map, filter, fold)
-* Limited data-types (values (ints, floats, and enums) and
-  multi-dimensional arrays of values or sets of values)
+* Limited data-types: values (ints, floats, and enums) and
+  multi-dimensional arrays of values or sets of values only.
 * Only declarative construction of data.
 * No tail recursion and no garbage collection.
 
@@ -35,7 +35,7 @@ problematic as soon as any large amount of data needs to be processed.
 
 Some very nice parts when using MinZinc for coding are
 * Set and array comprehensions
-* Generator exprssions with where clauses
+* Generator expressions with where clauses
 * Set operations and relations
 * Enum definitions
 * Enum array indexing
@@ -74,7 +74,7 @@ details [in the model](minizinc/day8/day8-2.mzn).
 
 With a simple model for how a projectile moves in 2 dimensions, and a
 target to hit, Day 17 had two interesting parts. The first asked for the
-maximum y coordinate possible while sitll hitting the target, while the
+maximum y coordinate possible while still hitting the target, while the
 latter asked for how many initial velocities would hit the target at
 all.
 
@@ -98,7 +98,7 @@ solve
   satisfy;
 ```
 Somewhat interesitng, I had first added also the variable `hit` to the
-search. This found to many solutions, as the set of unique solutions
+search. This found too many solutions, as the set of unique solutions
 is defined in MiniZinc by the solutions to the search variables, and
 equal initial velocities can have multiple hit times. Since I had only
 output the initial `x` and `y` values, MiniZinc actually showed me
@@ -143,7 +143,7 @@ which takes a bit of time and memory.
 [Modelling the game play](minizinc/day21/day21-1.mzn) for part 1 was
 quite elegant. In particular, I used the upcoming possibility in
 MiniZinc to use labels in an array combined with an enum to model the
-stat update. Since the labels can be computed, the update function
+state update. Since the labels can be computed, the update function
 became quite nice.
 
 ```
@@ -205,7 +205,7 @@ As Advent of Code is a challenge to find the right answer, it is easy
 to sometimes take short-cuts. For example, in 
 [Day 14](https://adventofcode.com/2021/day/14) part 2, an operation is
 repeatd 40 times. Instead of writing a rcursive function that takes an
-argument and coounts down, I simply wrote the below code instead. 
+argument and counts down, I simply wrote the below code instead. 
 
 ```
 array[Elements, Elements] of int: step40 = 
